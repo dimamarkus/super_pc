@@ -1,0 +1,50 @@
+/***********************************************************************
+**** HEADER  ***********************************************************
+************************************************************************/
+
+.header-top{
+	background: #0e2f59;
+	height: 9em;
+}
+
+.logo-container {
+	height: 0;
+	position: absolute;
+	top: .2em;
+	text-align: center;
+	img {
+		position: relative;
+		width: 16em ;
+	}
+}
+
+nav {
+	background: #264f73;
+	height: 4em;
+}
+
+
+
+
+
+/***********************************************************************
+**** FOOTER ************************************************************
+************************************************************************/
+
+.footer-top {
+	height: 8em;
+	background: #264f73;
+}
+
+.footer-bottom {
+	height: 2em;
+	background: #0e2f59;
+	text-align: right;
+		.copyright {
+		color: white;
+		display: inline-block;
+		text-align: right;
+		margin-top: .5em;
+		margin-right: 2em;
+	}
+}

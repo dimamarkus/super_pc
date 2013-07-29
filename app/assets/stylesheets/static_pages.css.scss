@@ -1,3 +1,20 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/***********************************************************************
+**** HOME PAGE  ********************************************************
+************************************************************************/
+
+.home-row { 
+margin-bottom: 5em;
+}
+
+.hero-row {
+	// margin: 0 auto;
+	text-align: center;
+}
+
+.blurb {
+	margin-top: 2em;
+	h2 {
+		// text-align: center;
+		margin-bottom: 0;
+	}
+}
