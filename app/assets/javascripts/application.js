@@ -16,3 +16,14 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+
+// Smooth scrolling Jump-to links
+
+$('.scroll').click(function(e){
+	e.preventDefault();
+	var id = $(this).attr('href');
+	$("html, body").animate({
+	scrollTop: $(id).offset().top
+	}, 500);   
+});
