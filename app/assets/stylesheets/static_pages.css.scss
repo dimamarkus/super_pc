@@ -6,15 +6,35 @@
 margin-bottom: 5em;
 }
 
-.hero-row {
-	// margin: 0 auto;
+.hero-container {
+	width: 100%;
+	background-image: url('http://placehold.it/1280x480');
+	height: 30em;
 	text-align: center;
+	margin-bottom: 1em;
+}
+
+.hero-text {
+	top: 11em;
+}
+
+.top-cta-container {
+	position: relative;
+	top: 4em;
+	// left: -2em;
+}
+
+.top-cta {
+	// position: relative;
+	// left: 17em;
+	// top: 10.5em;
+
 }
 
 .blurb {
-	// margin-top: 2em;
+	margin-bottom: 1em;
 	h2 {
-		// text-align: center;
 		margin-bottom: 0;
 	}
 }
+
