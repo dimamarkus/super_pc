@@ -15,31 +15,49 @@ margin-bottom: 5em;
   -o-background-size: cover;
   background-size: cover;
   text-align: center;
-	margin-bottom: 1em;
+	// margin-bottom: 1em;
 
 	h1,h2 {
 		color: white;
 	}
 }
 
+
+
+.orbit-progress {
+
+	opacity: 0;
+
+}
+
 .hero-text {
-	top: 6em;
+	top: 3em;
+	left: 5em;
+	text-align: left;
+	p {
+		font-size: 3em;
+		color: #f0f0f0;
+		line-height: 1.4;
+		margin-bottom: .75em;
+	}
 }
 
 .ipad {
 	position: relative;
-
 	top: 10em;
 }
 
+
 .top-cta-container {
 	position: relative;
-	// top: 4em;
+	// top: -4em;
 	// left: -2em;
 }
 
 .pos-image {
 	height: 30em;
+	top: 3em;
+	left: - 3em;
 }
 .top-cta {
 	// position: relative;
@@ -48,6 +66,8 @@ margin-bottom: 5em;
 	// position: absolute;
 	// top: 20em;
 	bottom: 0;
+	color: #f0f0f0;
+	background-color: #83d021;
 }
 
 .blurb {
