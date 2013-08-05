@@ -7,28 +7,47 @@ margin-bottom: 5em;
 }
 
 .hero-container {
-	width: 100%;
-	background-image: url('http://placehold.it/1280x480');
-	height: 30em;
-	text-align: center;
+	overflow: hidden;
+	background: url('/assets/hero.jpg') no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
 	margin-bottom: 1em;
+
+	h1,h2 {
+		color: white;
+	}
 }
 
 .hero-text {
-	top: 11em;
+	top: 6em;
+}
+
+.ipad {
+	position: relative;
+
+	top: 10em;
 }
 
 .top-cta-container {
 	position: relative;
-	top: 4em;
+	// top: 4em;
 	// left: -2em;
 }
 
+.pos-image {
+	height: 30em;
+}
 .top-cta {
 	// position: relative;
 	// left: 17em;
 	// top: 10.5em;
-
+	// position: absolute;
+	// top: 20em;
+	bottom: 0;
 }
 
 .blurb {
@@ -38,3 +57,18 @@ margin-bottom: 5em;
 	}
 }
 
+.row {
+	// width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 62.5em;
+}
+
+
+.pull-right {
+	float: right !important;
+}
+
+.pull-left {
+	float: left !important;
+}

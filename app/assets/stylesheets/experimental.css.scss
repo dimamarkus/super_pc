@@ -1,0 +1,38 @@
+nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+
+
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+
+	text-align: center;
+
+	li {
+		-webkit-flex: 1;
+		-moz-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		display: inline;
+		a{
+			font-size: 1.5em;
+			color: white;
+			&:hover {
+				color: orange;
+			}
+		}
+	}
+}
+
+.nav-spacer {
+	width: 16em;
+}

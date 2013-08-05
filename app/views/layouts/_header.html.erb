@@ -3,13 +3,19 @@
 		
 	</div>
 
-	<div class="row logo-container">
-		  <div class="large-3 large-centered columns">
-			<%= image_tag("logo.png", class: "logo") %>
-		  </div>
-	</div>
+	<%= link_to root_path do %>	
+		<%= image_tag("logo.png", class: "logo") %>
+  <% end %>
+
 
 	<nav>
-
+		<li><%= link_to "Home", root_path %></li>
+		<li><%= link_to "Services", root_path %></li>
+		<li><%= link_to "Software", root_path %></li>
+		<div class='nav-spacer'></div>
+		<li><%= link_to "Hardware", root_path %></li>
+		<li><%= link_to "About", root_path %></li>
+		<li><%= link_to "Contact Us", root_path %></li>
 	</nav>
+
 </header>
