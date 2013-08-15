@@ -2,6 +2,12 @@ SuperPc::Application.routes.draw do
 
   root to: "static_pages#home"
 
+  match 'software' => 'static_pages#software'
+  match 'hardware' => 'static_pages#hardware'
+  match 'services' => 'static_pages#services'
+  match 'about'    => 'static_pages#about'
+  match 'contact'  => 'static_pages#contact'
+
 
   get "static_pages/home"
 

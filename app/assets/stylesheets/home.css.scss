@@ -73,8 +73,17 @@ margin-bottom: 5em;
 
 .blurb {
 	margin-bottom: 1em;
+
 	h2 {
 		margin-bottom: 0;
+		text-align: center;
+	}
+	&:hover {
+	transform:scale(1.2,1.2);
+-ms-transform:scale(1.2,1.2); /* IE 9 */
+-webkit-transform:scale(1.2,1.2); /* Safari and Chrome */
+transition: scale 300ms;
+-webkit-transition: scale 300ms; /* Safari */
 	}
 }
 

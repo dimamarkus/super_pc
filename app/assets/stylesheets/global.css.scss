@@ -95,7 +95,11 @@ nav {
 			font-size: 1.25em;
 			color: white;
 			&:hover {
-				color: #2183d0;
+				color: #85cd29;
+				
+			transition: color 500ms;
+			-webkit-transition: color 500ms;
+
 			}
 		}
 	}

@@ -19,3 +19,71 @@
 .orbit-container {
 	background: transparent;
 }
+
+
+.event {
+	width: 450px;
+	min-height: 400px;
+	background: green;
+	border: 1px solid black;
+	li {
+		list-style-type: none;
+	}
+}
+
+.event-line {
+	background: black;
+	height: 10px;
+	width: 105px;
+}
+
+.main-line {
+	width: 10px;
+	height: 200em;
+	background: black;
+	position: absolute;
+	left: 50%;
+	margin-left: -5px;
+}
+
+
+.e1 {
+	margin-top: 2em;
+}
+.l1 {
+	position: relative;
+	top: 8em;
+	left: -1em;
+}
+
+.e2 {
+	margin-top: 7em;
+}
+.l2 {
+	position: relative;
+	left: 5em;
+	top: 16em;
+}
+
+
+
+
+.e3 {
+	// margin-top: 7em;
+}
+.l3 {
+	position: relative;
+	left: 5em;
+	top: 16em;
+}
+
+
+.e4 {
+	margin-top: 7em;
+}
+.l4 {
+	position: relative;
+	left: 5em;
+	top: 16em;
+}
+
